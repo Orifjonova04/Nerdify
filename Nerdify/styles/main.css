@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../sourses/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+}
+.nav-links a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-left: 48px;
+}
+/* header-content */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content-text h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.31px;
+    max-width: 500px;
+    color: #32404D;
+}
+.header-content-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #023135;
+    max-width: 330px;
+    margin: 21px 0 61px;
+}
+.header-content-text a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    background: #007A5C;
+    border-radius: 30px;
+    padding: 18px 38px;
+}
+.header-content-img img{
+    margin-top: 60px; 
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.links a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    color: #007A5C;
+    border: 1px solid #007A5C;
+    border-radius: 24px;
+    padding: 8px 15px;
+}
+.section1{
+    position: relative;
+    text-align: center;
+    max-width: 1440px;
+    justify-content: center;
+    display: flex;
+}
+.section1 h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #023135;
+    margin-bottom: 84px;
+}
+.section1-card1{
+    position: absolute;
+    width: 230px;
+    top: 33%;
+    left: 17%;
+}
+
+.section1-card2{
+    position: absolute;
+    width: 230px;
+    top: 35%;
+    right: 17%;
+}
+.section1-card3{
+    position: absolute;
+    width: 230px;
+    top: 63%;
+    left: 17%;
+}
+.section1-card1 h1, .section1-card2 h1, .section1-card3 h1{
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px;
+    width: 35px;
+    color: #FFFFFF;
+    background: #32404D;
+    border-radius: 18px;
+    margin-left: 100px;
+}
+.section1-card1 p, .section1-card2 p, .section1-card3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #023135;
+}
+
+
+.images img:first-child{
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+.images img:nth-child(2){
+    position: absolute;
+    top: 78%;
+    left: 25%;
+}
+.images img:last-child{
+    position: absolute;
+    top: 48%;
+    right: 25%;
+}
+/* section2 */
+.section2{
+    text-align: center;
+}
+.section2 h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #023135;
+    margin-top: 15px;
+}
+.section2-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 53px;
+}
+.section2-cards p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-top: 15px;
+}
+.section2-cards p::before{
+    content: url(../sourses/section2/Vector.png);
+    margin-right: 18px;
+}
+
+
+/* section3 */
+.section3{
+    text-align: center;
+}
+.section3 h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #023135;
+}
+.section3 h1 span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #007A5C;
+}
+.section3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #909EAB;
+}
+.section3-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.section3-cards p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-bottom: 18px;
+}
+.section3-box{
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+.section3-box div h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-bottom: 24px;
+}
+.section3-box div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-bottom: 16px;
+}
+
+.section3-box div a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    background: #007A5C;
+    border-radius: 24px;
+    padding: 10px 86px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.section3-faq{
+    text-align: center;
+    margin-top: 100px;
+}
+.section3-faq div p{
+    text-align: left;
+    margin-left: 350px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #023135;
+    margin-bottom: 18px;
+}
+.section3-faq div p::before{
+    content: url(../sourses/section3/Vector\ \(1\).png);
+    margin-right: 20px;
+}
+footer{
+    margin-top: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.footer-links a{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+letter-spacing: 0.15px;
+
+color: #023135;
+margin-left: 30px;
+}
